@@ -1,33 +1,35 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# Non-parametric cosmology
-- project: Detector-frame cosmology with non-parametric methods
+- project: Inferring cosmology from gravitational waves (GW) using non-parametric detector-frame mass distribution
   duration: Aug 2023 &mdash; Present
-  description: Supervisors&#58; <a href="https://inspirehep.net/authors/1878748" itemprop="url">Dr. Stefano Rinaldi</a>, <a href="https://inspirehep.net/authors/1765938" itemprop="url">Prof. Otto A. Hannuksela</a><ul class="resume-item-list"><li>Analyse GW population distribution with non-parametric methods to obtain cosmological parameters</li></ul>
+  description: Publication&#58; <b>T. C. K. Ng</b>, S. Rinaldi and O. A. Hannuksela, Inferring cosmology from gravitational waves using non-parametric detector-frame mass distribution.<br><br>Supervisors&#58; <a href="https://inspirehep.net/authors/1878748" itemprop="url" target="_blank">Dr. Stefano Rinaldi</a>, <a href="https://inspirehep.net/authors/1765938" itemprop="url" target="_blank">Prof. Otto A. Hannuksela</a><ul class="resume-item-list"><li>Developed a novel method to infer cosmological parameters from GW population using non-parametric reconstruction toolkit FIGARO</li></ul>
 
-  # Null-stream
-- project: Testing GR with null-stream analysis
+- project: Searching non-GR polarizations with null-stream analysis
   duration: Aug 2023 &mdash; Present
-  description: Supervisors&#58; <a href="https://inspirehep.net/authors/1872719" itemprop="url">Dr. Isaac C. F. Wong</a>, <a href="https://inspirehep.net/authors/1765938" itemprop="url">Prof. Otto A. Hannuksela</a><ul class="resume-item-list"><li>Develop the null-stream analysis pipeline for LVK O4 Testing-GR analysis</li><li>Investigate the effectiveness of testing GR with strongly lensed events</li></ul>
+  description: Supervisors&#58; <a href="https://inspirehep.net/authors/1872719" itemprop="url" target="_blank">Dr. Isaac C. F. Wong</a>, <a href="https://inspirehep.net/authors/1765938" itemprop="url" target="_blank">Prof. Otto A. Hannuksela</a><ul class="resume-item-list"><li>Developed a null-stream analysis pipeline to search for non-GR polarizations in GW data</li><li>Performed data analysis on Observing Run 4a for the Ligo-Virgo-KAGRA collaboration</li><li>Developing a method to utilize strong lensing events in null-stream analysis</li></ul>
 
-# Bbirefringence
-- project: Constraining gravitational wave amplitude birefringence
+- project: Developing JAX-based GW inference toolkit Jim
+  duration: Jul 2024 &mdash; Present
+  description: Supervisors&#58; <a href="https://inspirehep.net/authors/1789361" itemprop="url" target="_blank">Prof. Kaze W. K. Wong</a><ul class="resume-item-list"><li>Developed a new prior system to make reparameterization easier as a main developer</li><li>Mentoring two students in developing new features</li></ul>
+
+- project: Constraining spatial anisotropy of GW sources\\using angular power spectrum
+  duration: May 2024 &mdash; Present
+  description: Supervisors&#58; <a href="https://inspirehep.net/authors/1765938" itemprop="url" target="_blank">Prof. Otto A. Hannuksela</a><ul class="resume-item-list"><li>Proposed a research project to extend a recent study</li><li>Mentoring two undergraduate students to perform the analysis</li></ul>
+
+- project: Constraining GW amplitude birefringence
   # role: Flatiron Institute, Manhattan, NY
   duration: May 2022 &mdash; Oct 2023
   # url: "https://thomasckng.github.io/Constraining-Birefringence-with-GWTC-3/"
-  description: Publication&#58; T. C. K. Ng, M. Isi, K. W. K. Wong, and W. M. Farr, Constraining gravitational wave amplitude birefringence with GWTC-3, <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.084068" itemprop="url">Phys. Rev. D 108, 084068 (2023)</a>, <a href="https://arxiv.org/abs/2305.05844" itemprop="url">arXiv:2305.05844</a>.<br><br><a href="https://thomasckng.github.io/Constraining-Birefringence-with-GWTC-3/" itemprop="url">Short Paper Summary</a><br><br>Supervisors&#58; <a href="https://inspirehep.net/authors/1275240" itemprop="url">Dr. Maximiliano Isi</a>, <a href="https://inspirehep.net/authors/1789361" itemprop="url">Dr. Kaze W. K. Wong</a>, <a href="https://inspirehep.net/authors/1044235" itemprop="url">Prof. Will M. Farr</a><ul class="resume-item-list"><li>Constrain the strength of amplitude birefringence by performing parameter estimations on events in GWTC-3 using Bilby</li><li>Perform statistical analysis to calculate the population probability of the strength of amplitude birefringence using python</li></ul>
+  description: Publication&#58; <b>T. C. K. Ng</b>, M. Isi, K. W. K. Wong, and W. M. Farr, Constraining gravitational wave amplitude birefringence with GWTC-3, <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.084068" itemprop="url" target="_blank">Phys. Rev. D 108, 084068</a> (2023).<br><br><a href="https://thomasckng.github.io/Constraining-Birefringence-with-GWTC-3/" itemprop="url" target="_blank">Short Paper Summary</a><br><br>Supervisors&#58; <a href="https://inspirehep.net/authors/1275240" itemprop="url" target="_blank">Dr. Maximiliano Isi</a>, <a href="https://inspirehep.net/authors/1789361" itemprop="url" target="_blank">Dr. Kaze W. K. Wong</a>, <a href="https://inspirehep.net/authors/1044235" itemprop="url" target="_blank">Prof. Will M. Farr</a><ul class="resume-item-list"><li>Constrain the strength of amplitude birefringence by performing parameter estimations on events in GWTC-3 using Bilby</li></ul>
 
-# # Milli-lensing with flowMC
 # - project: Constraining gravitational wave millilensing with flowMC
 #   role: The Chinese University of Hong Kong
 #   duration: Nov 2022 &mdash; Present
-#   description: Supervisors&#58; <a href="https://inspirehep.net/authors/2656456" itemprop="url">Anna Liu</a>, <a href="https://inspirehep.net/authors/1765938" itemprop="url">Prof. Otto A. Hannuksela</a><ul class="resume-item-list"><li>Search for milli-lensing events in the current catalog by performing parameter estimation</li><li>Test the state-of-the-art sampler, flowMC, on gravitational wave parameter estimation</li></ul>
+#   description: Supervisors&#58; <a href="https://inspirehep.net/authors/2656456" itemprop="url" target="_blank">Anna Liu</a>, <a href="https://inspirehep.net/authors/1765938" itemprop="url" target="_blank">Prof. Otto A. Hannuksela</a><ul class="resume-item-list"><li>Search for milli-lensing events in the current catalog by performing parameter estimation</li><li>Test the state-of-the-art sampler, flowMC, on gravitational wave parameter estimation</li></ul>
 
-# Self-interacting dark matter
 - project: Study of self-interacting dark matter
   # role: The Chinese University of Hong Kong
   duration: May 2021 &mdash; Jul 2021
   # url: "images/SIDM.pdf"
-  description: <a href="images/SIDM.pdf" itemprop="url">Poster</a><br><br>Supervisor&#58; <a href="https://inspirehep.net/authors/1041004" itemprop="url">Prof. Ming Chung Chu</a><ul class="resume-item-list"><li>Study fermionic dark matter by comparing observational data with simulated density profile of dark matter-dominated halos</li><li>Study the evolution of self-interacting dark matter halo by modifying existing simulation code in Julia</li></ul>
-  
+  description: <a href="images/SIDM.pdf" itemprop="url" target="_blank">Poster</a><br><br>Supervisor&#58; <a href="https://inspirehep.net/authors/1041004" itemprop="url" target="_blank">Prof. Ming Chung Chu</a><ul class="resume-item-list"><li>Study fermionic dark matter by comparing observational data with simulated density profile of dark matter-dominated halos</li><li>Study the evolution of self-interacting dark matter halo by modifying existing simulation code in Julia</li></ul>
