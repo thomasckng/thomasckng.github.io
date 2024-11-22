@@ -1,6 +1,31 @@
 # Jobs
 
-# Physics Student Conference 2022
-- company: Physics Student Conference 2022
-  position: The Chinese University of Hong Kong
-  duration:  Oct 2022
+- company: The Chinese University of Hong Kong
+  position: Hong Kong
+  duration: Oct 2022
+  summary: <ul class="resume-item-list"><li>Presented in the Physics Student Conference 2022 on Ng et al. (2023)</li></ul>
+
+- company: LVK Meeting
+  position: Toyama, Japan
+  duration: Sep 2023
+  summary: <ul class="resume-item-list"><li>Presented in the Poster Session on Ng et al. (2023)</li></ul>
+
+- company: Heidelberg University
+  position: Heidelberg, Germany
+  duration: Apr 2024 - May 2024
+  summary: <ul class="resume-item-list"><li>Collaborated with Dr. Stefano Rinaldi on Ng et al. (2024)</li><li>Presented in the weekly meeting of Prof. Dr. Michela Mapelli's group on Ng et al. (2024)</li></ul>
+
+- company: Utrecht University
+  position: Utrecht, Netherlands
+  duration: May 2024
+  summary: <ul class="resume-item-list"><li>Presented in a seminar organized by Prof. dr. C.F.F. (Chris) van den Broeck on Ng et al. (2024)</li></ul>
+
+- company: KU Leuven
+  position: Leuven, Belgium
+  duration: May 2024
+  summary: <ul class="resume-item-list"><li>Presented in a seminar organized by Prof. Tjonnie G. F. Li on Ng et al. (2024)</li></ul>
+
+- company: Johns Hopkins University
+  position: Baltimore, USA
+  duration: Jul 2024 - Aug 2024
+  summary: <ul class="resume-item-list"><li>Collaborated with Prof. Kaze W. K. Wong on the development of Jim</li></ul>
