@@ -5,7 +5,7 @@
   duration: Aug 2023 &mdash; Present
   description: Publication&#58; <b>T. C. K. Ng</b>, S. Rinaldi and O. A. Hannuksela, <i>Inferring cosmology from gravitational waves using non-parametric detector-frame mass distribution</i>, <a href="https://doi.org/10.48550/arXiv.2410.23541" itemprop="url" target="_blank">arXiv:2410.23541</a>.<br><br>Supervisors&#58; <a href="https://inspirehep.net/authors/1878748" itemprop="url" target="_blank">Dr. Stefano Rinaldi</a>, <a href="https://inspirehep.net/authors/1765938" itemprop="url" target="_blank">Prof. Otto A. Hannuksela</a><ul class="resume-item-list"><li>Developed an optimization-based framework for estimating cosmological parameters from GW populations, leveraging the non-parametric reconstruction toolkit FIGARO</li></ul>
 
-- project: Searching non-GR polarizations with null-stream analysis
+- project: Searching non-GR polarizations using null-stream analysis
   duration: Aug 2023 &mdash; Present
   description: Supervisors&#58; <a href="https://inspirehep.net/authors/1872719" itemprop="url" target="_blank">Dr. Isaac C. F. Wong</a>, <a href="https://inspirehep.net/authors/1765938" itemprop="url" target="_blank">Prof. Otto A. Hannuksela</a><ul class="resume-item-list"><li>Developed a null-stream analysis pipeline to search for non-GR polarizations in GW data</li><li>Performed data analysis on Observing Run 4a for the Ligo-Virgo-KAGRA collaboration</li><li>Developing a method to utilize strongly-lensed GW events in null-stream analysis</li></ul>
 
