@@ -111,22 +111,22 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Inferring cosmology from gravitational waves using non-parametric detector-frame mass distribution',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'arXiv preprint',
+      authors: 'Thomas C. K. Ng, Stefano Rinaldi, Otto A. Hannuksela',
+      link: 'https://doi.org/10.48550/arXiv.2410.23541',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'We present a non-parametric framework for inferring cosmological parameters from gravitational-wave population data, offering an alternative to traditional approaches and addressing technical challenges in the field.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'Constraining gravitational wave amplitude birefringence with GWTC-3',
+      conferenceName: '',
+      journalName: 'Physical Review D',
+      authors: 'Thomas C. K. Ng, Maximiliano Isi, Kaze W. K. Wong, Will M. Farr',
+      link: 'https://doi.org/10.1103/PhysRevD.108.084068',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'We investigate whether gravitational waves exhibit amplitude birefringence, which would indicate parity violation in gravity, by analyzing binary black hole signals with phenomenological waveforms inspired by modified gravity theories.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
