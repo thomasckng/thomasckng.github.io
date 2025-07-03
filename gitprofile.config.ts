@@ -122,6 +122,11 @@ const CONFIG = {
   ],
   educations: [
     {
+      institution: 'National Institute for Subatomic Physics (Nikhef) & Institute for Gravitational and Subatomic Physics (GRASP), Department of Physics, Utrecht University',
+      degree: 'Doctor of Philosophy, Physics',
+      from: '2025',
+    },
+    {
       institution: 'The Chinese University of Hong Kong',
       degree: 'Master of Philosophy, Physics',
       from: '2023',
