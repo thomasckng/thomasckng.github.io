@@ -196,124 +196,92 @@ const GitProfile = ({ config }: { config: Config }) => {
             />
             <div className={`p-4 lg:p-10 min-h-full ${BG_COLOR}`}>
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 rounded-box">
-                {/* Theme Changer - Always first on mobile */}
-                {!sanitizedConfig.themeConfig.disableSwitch && (
-                  <div className="col-span-1 lg:col-span-1 order-1">
-                    <ThemeChanger
-                      theme={theme}
-                      setTheme={setTheme}
+                <div className="col-span-1">
+                  <div className="grid grid-cols-1 gap-6">
+                    {!sanitizedConfig.themeConfig.disableSwitch && (
+                      <ThemeChanger
+                        theme={theme}
+                        setTheme={setTheme}
+                        loading={loading}
+                        themeConfig={sanitizedConfig.themeConfig}
+                      />
+                    )}
+                    <AvatarCard
+                      profile={profile}
                       loading={loading}
-                      themeConfig={sanitizedConfig.themeConfig}
+                      avatarRing={sanitizedConfig.themeConfig.displayAvatarRing}
+                      resumeFileUrl={sanitizedConfig.resume.fileUrl}
                     />
+                    {sanitizedConfig.educations.length !== 0 && (
+                      <EducationCard
+                        loading={loading}
+                        educations={sanitizedConfig.educations}
+                      />
+                    )}
+                    {sanitizedConfig.experiences.length !== 0 && (
+                      <ExperienceCard
+                        loading={loading}
+                        experiences={sanitizedConfig.experiences}
+                      />
+                    )}
+                    <DetailsCard
+                      profile={profile}
+                      loading={loading}
+                      github={sanitizedConfig.github}
+                      social={sanitizedConfig.social}
+                    />
+                    {sanitizedConfig.certifications.length !== 0 && (
+                      <CertificationCard
+                        loading={loading}
+                        certifications={sanitizedConfig.certifications}
+                      />
+                    )}
+                    {sanitizedConfig.skills.length !== 0 && (
+                      <SkillCard
+                        loading={loading}
+                        skills={sanitizedConfig.skills}
+                      />
+                    )}
                   </div>
-                )}
-                
-                {/* Avatar Card - High priority on mobile */}
-                <div className="col-span-1 lg:col-span-1 order-2">
-                  <AvatarCard
-                    profile={profile}
-                    loading={loading}
-                    avatarRing={sanitizedConfig.themeConfig.displayAvatarRing}
-                    resumeFileUrl={sanitizedConfig.resume.fileUrl}
-                  />
                 </div>
-
-                {/* Publications - High priority content */}
-                {sanitizedConfig.publications.length !== 0 && (
-                  <div className="col-span-1 lg:col-span-2 order-3">
-                    <PublicationCard
-                      loading={loading}
-                      publications={sanitizedConfig.publications}
-                    />
+                <div className="lg:col-span-2 col-span-1">
+                  <div className="grid grid-cols-1 gap-6">
+                    {sanitizedConfig.publications.length !== 0 && (
+                      <PublicationCard
+                        loading={loading}
+                        publications={sanitizedConfig.publications}
+                      />
+                    )}
+                    {sanitizedConfig.projects.external.projects.length !==
+                      0 && (
+                      <ExternalProjectCard
+                        loading={loading}
+                        header={sanitizedConfig.projects.external.header}
+                        externalProjects={
+                          sanitizedConfig.projects.external.projects
+                        }
+                        googleAnalyticId={sanitizedConfig.googleAnalytics.id}
+                      />
+                    )}
+                    {sanitizedConfig.projects.github.display && (
+                      <GithubProjectCard
+                        header={sanitizedConfig.projects.github.header}
+                        limit={sanitizedConfig.projects.github.automatic.limit}
+                        githubProjects={githubProjects}
+                        loading={loading}
+                        username={sanitizedConfig.github.username}
+                        googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
+                      />
+                    )}
+                    {sanitizedConfig.blog.display && (
+                      <BlogCard
+                        loading={loading}
+                        googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
+                        blog={sanitizedConfig.blog}
+                      />
+                    )}
                   </div>
-                )}
-
-                {/* External Projects - High priority content */}
-                {sanitizedConfig.projects.external.projects.length !== 0 && (
-                  <div className="col-span-1 lg:col-span-2 order-4">
-                    <ExternalProjectCard
-                      loading={loading}
-                      header={sanitizedConfig.projects.external.header}
-                      externalProjects={sanitizedConfig.projects.external.projects}
-                      googleAnalyticId={sanitizedConfig.googleAnalytics.id}
-                    />
-                  </div>
-                )}
-
-                {/* Education - Important biographical info */}
-                {sanitizedConfig.educations.length !== 0 && (
-                  <div className="col-span-1 lg:col-span-1 order-5">
-                    <EducationCard
-                      loading={loading}
-                      educations={sanitizedConfig.educations}
-                    />
-                  </div>
-                )}
-
-                {/* GitHub Projects - High priority content */}
-                {sanitizedConfig.projects.github.display && (
-                  <div className="col-span-1 lg:col-span-2 order-6">
-                    <GithubProjectCard
-                      header={sanitizedConfig.projects.github.header}
-                      limit={sanitizedConfig.projects.github.automatic.limit}
-                      githubProjects={githubProjects}
-                      loading={loading}
-                      username={sanitizedConfig.github.username}
-                      googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
-                    />
-                  </div>
-                )}
-
-                {/* Experience - Important biographical info */}
-                {sanitizedConfig.experiences.length !== 0 && (
-                  <div className="col-span-1 lg:col-span-1 order-7">
-                    <ExperienceCard
-                      loading={loading}
-                      experiences={sanitizedConfig.experiences}
-                    />
-                  </div>
-                )}
-
-                {/* Blog - Secondary content */}
-                {sanitizedConfig.blog.display && (
-                  <div className="col-span-1 lg:col-span-2 order-8">
-                    <BlogCard
-                      loading={loading}
-                      googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
-                      blog={sanitizedConfig.blog}
-                    />
-                  </div>
-                )}
-
-                {/* Details Card - Contact info */}
-                <div className="col-span-1 lg:col-span-1 order-9">
-                  <DetailsCard
-                    profile={profile}
-                    loading={loading}
-                    github={sanitizedConfig.github}
-                    social={sanitizedConfig.social}
-                  />
                 </div>
-
-                {/* Certifications - Secondary info */}
-                {sanitizedConfig.certifications.length !== 0 && (
-                  <div className="col-span-1 lg:col-span-1 order-10">
-                    <CertificationCard
-                      loading={loading}
-                      certifications={sanitizedConfig.certifications}
-                    />
-                  </div>
-                )}
-
-                {/* Skills - Secondary info */}
-                {sanitizedConfig.skills.length !== 0 && (
-                  <div className="col-span-1 lg:col-span-1 order-11">
-                    <SkillCard
-                      loading={loading}
-                      skills={sanitizedConfig.skills}
-                    />
-                  </div>
-                )}
               </div>
             </div>
             {sanitizedConfig.footer && (
