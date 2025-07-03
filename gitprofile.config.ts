@@ -87,6 +87,11 @@ const CONFIG = {
     'Astronomy',
   ],
   experiences: [
+    {
+      company: 'LIGO',
+      from: 'February 2023',
+      to: 'Present',
+    }
   ],
   certifications: [
   ],
