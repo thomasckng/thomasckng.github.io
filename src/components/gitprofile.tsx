@@ -212,16 +212,10 @@ const GitProfile = ({ config }: { config: Config }) => {
                       avatarRing={sanitizedConfig.themeConfig.displayAvatarRing}
                       resumeFileUrl={sanitizedConfig.resume.fileUrl}
                     />
-                    <DetailsCard
-                      profile={profile}
-                      loading={loading}
-                      github={sanitizedConfig.github}
-                      social={sanitizedConfig.social}
-                    />
-                    {sanitizedConfig.skills.length !== 0 && (
-                      <SkillCard
+                    {sanitizedConfig.educations.length !== 0 && (
+                      <EducationCard
                         loading={loading}
-                        skills={sanitizedConfig.skills}
+                        educations={sanitizedConfig.educations}
                       />
                     )}
                     {sanitizedConfig.experiences.length !== 0 && (
@@ -230,16 +224,22 @@ const GitProfile = ({ config }: { config: Config }) => {
                         experiences={sanitizedConfig.experiences}
                       />
                     )}
+                    <DetailsCard
+                      profile={profile}
+                      loading={loading}
+                      github={sanitizedConfig.github}
+                      social={sanitizedConfig.social}
+                    />
                     {sanitizedConfig.certifications.length !== 0 && (
                       <CertificationCard
                         loading={loading}
                         certifications={sanitizedConfig.certifications}
                       />
                     )}
-                    {sanitizedConfig.educations.length !== 0 && (
-                      <EducationCard
+                    {sanitizedConfig.skills.length !== 0 && (
+                      <SkillCard
                         loading={loading}
-                        educations={sanitizedConfig.educations}
+                        skills={sanitizedConfig.skills}
                       />
                     )}
                   </div>
