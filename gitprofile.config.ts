@@ -33,20 +33,16 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Testing General Relativity with Null-Stream Polarization Analysis',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            "This project investigates the existence of gravitational wave polarizations beyond those predicted by general relativity by analyzing data from the LIGO-Virgo-KAGRA collaboration using the null stream method. Supervised by Dr. Isaac C. F. Wong, the work aims to identify subtle deviations from Einstein's theory through advanced data analysis and the study of potentially strongly-lensed events.",
+          link: '',
         },
         {
-          title: 'Project Name',
+          title: 'Jim: A Machine Learning Toolkit for Gravitational Wave Inference',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            "Jim is an open-source toolkit built on JAX for efficient and scalable gravitational wave inference. It leverages modern machine learning techniques to accelerate parameter estimation and is actively applied to the latest gravitational wave data. Supervised by Prof. Kaze W. K. Wong, I contributed to the development and application of Jim in this rapidly evolving field.",
+          link: 'https://github.com/kazewong/jim',
         },
       ],
     },
