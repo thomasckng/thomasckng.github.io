@@ -36,7 +36,6 @@ const CONFIG = {
           title: 'Testing General Relativity with Null-Stream Polarization Analysis',
           description:
             "This project investigates the existence of gravitational wave polarizations beyond those predicted by general relativity by analyzing data from the LIGO-Virgo-KAGRA collaboration using the null stream method. Supervised by Dr. Isaac C. F. Wong, the work aims to identify subtle deviations from Einstein's theory through advanced data analysis and the study of potentially strongly-lensed events.",
-          link: '',
         },
         {
           title: 'Jim: A Machine Learning Toolkit for Gravitational Wave Inference',
@@ -108,7 +107,6 @@ const CONFIG = {
   publications: [
     {
       title: 'Inferring cosmology from gravitational waves using non-parametric detector-frame mass distribution',
-      conferenceName: '',
       journalName: 'arXiv preprint',
       authors: 'T. C. K. Ng, S. Rinaldi, O. A. Hannuksela',
       link: 'https://doi.org/10.48550/arXiv.2410.23541',
@@ -117,7 +115,6 @@ const CONFIG = {
     },
     {
       title: 'Constraining gravitational wave amplitude birefringence with GWTC-3',
-      conferenceName: '',
       journalName: 'Physical Review D',
       authors: 'T. C. K. Ng, M. Isi, K. W. K. Wong, W. M. Farr',
       link: 'https://doi.org/10.1103/PhysRevD.108.084068',
