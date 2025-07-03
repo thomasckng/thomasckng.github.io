@@ -33,9 +33,9 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Testing General Relativity with Null-Stream Polarization Analysis',
+          title: 'Testing General Relativity with Null-Stream Polarisation Analysis',
           description:
-            "This project investigates the existence of gravitational wave polarizations beyond those predicted by general relativity by analyzing data from the LIGO-Virgo-KAGRA collaboration using the null stream method. Supervised by Dr. Isaac C. F. Wong, the work aims to identify subtle deviations from Einstein's theory through advanced data analysis and the study of potentially strongly-lensed events.",
+            "This project investigates the existence of gravitational wave polarisations beyond those predicted by general relativity by analysing data from the LIGO-Virgo-KAGRA collaboration using the null stream method. Supervised by Dr. Isaac C. F. Wong, the work aims to identify subtle deviations from Einstein's theory through advanced data analysis and the study of potentially strongly-lensed events.",
         },
         {
           title: 'Jim: A Machine Learning Toolkit for Gravitational Wave Inference',
@@ -161,7 +161,7 @@ const CONFIG = {
       authors: 'T. C. K. Ng, M. Isi, K. W. K. Wong, W. M. Farr',
       link: 'https://doi.org/10.1103/PhysRevD.108.084068',
       description:
-        'We investigate whether gravitational waves exhibit amplitude birefringence, which would indicate parity violation in gravity, by analyzing binary black hole signals with phenomenological waveforms inspired by modified gravity theories.',
+        'We investigate whether gravitational waves exhibit amplitude birefringence, which would indicate parity violation in gravity, by analysing binary black hole signals with phenomenological waveforms inspired by modified gravity theories.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
