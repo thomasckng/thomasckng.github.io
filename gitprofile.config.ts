@@ -110,7 +110,7 @@ const CONFIG = {
       title: 'Inferring cosmology from gravitational waves using non-parametric detector-frame mass distribution',
       conferenceName: '',
       journalName: 'arXiv preprint',
-      authors: 'Thomas C. K. Ng, Stefano Rinaldi, Otto A. Hannuksela',
+      authors: 'T. C. K. Ng, S. Rinaldi, O. A. Hannuksela',
       link: 'https://doi.org/10.48550/arXiv.2410.23541',
       description:
         'We present a non-parametric framework for inferring cosmological parameters from gravitational-wave population data, offering an alternative to traditional approaches and addressing technical challenges in the field.',
@@ -119,7 +119,7 @@ const CONFIG = {
       title: 'Constraining gravitational wave amplitude birefringence with GWTC-3',
       conferenceName: '',
       journalName: 'Physical Review D',
-      authors: 'Thomas C. K. Ng, Maximiliano Isi, Kaze W. K. Wong, Will M. Farr',
+      authors: 'T. C. K. Ng, M. Isi, K. W. K. Wong, W. M. Farr',
       link: 'https://doi.org/10.1103/PhysRevD.108.084068',
       description:
         'We investigate whether gravitational waves exhibit amplitude birefringence, which would indicate parity violation in gravity, by analyzing binary black hole signals with phenomenological waveforms inspired by modified gravity theories.',
