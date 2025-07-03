@@ -94,6 +94,31 @@ const CONFIG = {
     }
   ],
   certifications: [
+    {
+      name: 'Reaching Out Award',
+      body: 'HKSAR Government',
+      year: '2024',
+    },
+    {
+      name: 'CN Yang Scholarships (Research Experience)',
+      body: 'The Chinese University of Hong Kong',
+      year: '2022',
+    },
+    {
+      name: 'Chung Chi College FLY Award',
+      body: 'Chung Chi College',
+      year: '2022',
+    },
+    {
+      name: 'Reaching Out Award',
+      body: 'HKSAR Government',
+      year: '2022',
+    },
+    {
+      name: 'Talent Development Scholarship',
+      body: 'HKSAR Government',
+      year: '2021',
+    },
   ],
   educations: [
     {
