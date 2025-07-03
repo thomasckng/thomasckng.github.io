@@ -13,7 +13,7 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Github Projects',
+      header: 'GitHub Repositories',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
@@ -29,7 +29,7 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
