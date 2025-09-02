@@ -71,7 +71,7 @@ const CONFIG = {
     telegram: '',
     website: 'https://thomasckng.github.io/',
     phone: '',
-    email: 'thomas.ng@link.cuhk.edu.hk',
+    email: 'thomas.ng@nikhef.nl',
   },
   resume: {
     fileUrl:
