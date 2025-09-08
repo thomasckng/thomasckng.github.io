@@ -88,9 +88,14 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Virgo',
+      from: 'September 2025',
+      to: 'Present',
+    },
+    {
       company: 'LIGO',
       from: 'February 2023',
-      to: 'Present',
+      to: 'August 2025',
     }
   ],
   certifications: [
