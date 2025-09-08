@@ -88,6 +88,11 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Einstein Telescope',
+      from: 'September 2025',
+      to: 'Present',
+    },
+    {
       company: 'Virgo',
       from: 'September 2025',
       to: 'Present',
