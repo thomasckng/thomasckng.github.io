@@ -14,7 +14,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'GitHub Repositories',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -26,6 +26,7 @@ const CONFIG = {
       manual: {
         // Properties for manually specifying projects
         // projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['GW-JAX-Team/jim', 'GW-JAX-Team/flowMC', 'thomasckng/det-frame-cosmo-with-FIGARO', 'isaac-cf-wong/nullpol'],
       },
     },
     external: {
@@ -33,15 +34,16 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'Next-Generation Data Analysis for Gravitational-Wave Astrophysics',
+          description:
+            "I lead the development of a GPU-accelerated inference framework for gravitational wave data analysis, integrating three packages: Jim (inference toolkit), flowMC (sampler), and ripple (waveform library). As the current lead developer, I coordinate a team of researchers from institutions around the globe, driving architectural decisions and feature development.",
+          link: 'https://github.com/GW-JAX-Team',
+        },
+        {
           title: 'Testing General Relativity with Null-Stream Polarisation Analysis',
           description:
             "This project investigates the existence of gravitational wave polarisations beyond those predicted by general relativity by analysing data from the LIGO-Virgo-KAGRA collaboration using the null stream method. Supervised by Dr. Isaac C. F. Wong, the work aims to identify subtle deviations from Einstein's theory through advanced data analysis and the study of potentially strongly-lensed events.",
-        },
-        {
-          title: 'Jim: A Machine Learning Toolkit for Gravitational Wave Inference',
-          description:
-            "Jim is an open-source toolkit built on JAX for efficient and scalable gravitational wave inference. It leverages modern machine learning techniques to accelerate parameter estimation and is actively applied to the latest gravitational wave data. Supervised by Prof. Kaze W. K. Wong, I contributed to the development and application of Jim in this rapidly evolving field.",
-          link: 'https://github.com/kazewong/jim',
+          link: 'https://github.com/isaac-cf-wong/nullpol',
         },
       ],
     },
