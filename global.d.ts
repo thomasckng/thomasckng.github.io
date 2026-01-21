@@ -232,6 +232,7 @@ interface Certification {
 
 interface Education {
   institution?: string;
+  institutionAdditional?: string;
   degree?: string;
   from: string;
   to: string;

@@ -6,10 +6,12 @@ const ListItem = ({
   time,
   degree,
   institution,
+  institutionAdditional,
 }: {
   time: React.ReactNode;
   degree?: React.ReactNode;
   institution?: React.ReactNode;
+  institutionAdditional?: React.ReactNode;
 }) => (
   <li className="mb-5 ml-4">
     <div
@@ -18,7 +20,13 @@ const ListItem = ({
     ></div>
     <div className="my-0.5 text-xs">{time}</div>
     <h3 className="font-semibold">{degree}</h3>
-    <div className="mb-4 font-normal">{institution}</div>
+    <div className="mb-4 font-normal">
+      <div>{institution}</div>
+      {institutionAdditional && (
+        <div className="text-center">and</div>
+      )}
+      {institutionAdditional && <div>{institutionAdditional}</div>}
+    </div>
   </li>
 );
 
@@ -76,6 +84,7 @@ const EducationCard = ({
                     time={`${item.from} - ${item.to}`}
                     degree={item.degree}
                     institution={item.institution}
+                    institutionAdditional={item.institutionAdditional}
                   />
                 ))}
               </>
