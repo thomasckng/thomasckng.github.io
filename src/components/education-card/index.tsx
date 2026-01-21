@@ -23,7 +23,7 @@ const ListItem = ({
     <div className="mb-4 font-normal">
       <div>{institution}</div>
       {institutionAdditional && (
-        <div className="text-center">and</div>
+        <div className="ml-4">and</div>
       )}
       {institutionAdditional && <div>{institutionAdditional}</div>}
     </div>
